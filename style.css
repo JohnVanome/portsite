@@ -1,3 +1,21 @@
-h1{
-  color: blue;
-}
+.container {  
+    background-color: black;
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "X X . X ."
+      ". . X . ."
+      ". . X . ."
+      ". X . X .";
+  }
+  
+  .test3 { grid-area: test3; }
+  
+  .test2 { grid-area: test2; }
+  
+  .test { grid-area: test; }
+  
