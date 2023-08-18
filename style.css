@@ -1,11 +1,35 @@
 body{
-  background-color: gray;
+  background-color: rgb(15, 15, 124);
   padding: 0px;
   margin: 0px;
 }
 
 .header{
-  height: 5vh;
   width: 100vw;
-  background-color: white;
+  height: 5vh;
+  background-color: bisque;
+  transition-duration: 0.5s;
+  position:relative;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: none;
+  justify-content: center;
+}
+
+.grid-item{
+
+  transition-duration: 0.5s;
+  padding-top: 1vh;
+  margin: 5vw;
+  border: none;
+  border-radius: 25%;
+  background-color: bisque;
+  height: 20vh;
+  width: 10vw;
+  font-size: xx-large;
+  text-align: center;
+
 }
