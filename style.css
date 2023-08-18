@@ -4,32 +4,8 @@ body{
   margin: 0px;
 }
 
-
-#cursor{
-  background-color: rgba(255, 255, 255, 0.505);
-  height: 50px;
-  width: 50px;
-  border-radius: 100%;
-  box-shadow: 0px 0px 50px rgb(0, 255, 255);
-
-}
-#BIG{
-  background-color: blue;
-  color: white;
-  z-index: 1;
+.header{
+  height: 5vh;
   width: 100vw;
-  height: 100vh;
-  font-size: xx-large;
-  visibility: hidden;
-}
-#deathzone{
-  background-color: red;
-  height: 200px;
-  width: 440px;
-  border: 0xp;
-  margin: 100px;
-  font-size: 50px;
-  color: white;
-  font-weight: 600;
-  
+  background-color: white;
 }
