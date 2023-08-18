@@ -1,21 +1,35 @@
-.container {  
-    background-color: black;
-    color:white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 5px 5px;
-    grid-auto-flow: column;
-    grid-template-areas:
-      "X X . X ."
-      ". . X . ."
-      ". . X . ."
-      ". X . X .";
-  }
+body{
+  background-color: gray;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+#cursor{
+  background-color: rgba(255, 255, 255, 0.505);
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 50px rgb(0, 255, 255);
+
+}
+#BIG{
+  background-color: blue;
+  color: white;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  font-size: xx-large;
+  visibility: hidden;
+}
+#deathzone{
+  background-color: red;
+  height: 200px;
+  width: 440px;
+  border: 0xp;
+  margin: 100px;
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
   
-  .test3 { grid-area: test3; }
-  
-  .test2 { grid-area: test2; }
-  
-  .test { grid-area: test; }
-  
+}
